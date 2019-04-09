@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style/style.css">
   <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,700,900" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <title>Document</title>
 </head>
 
@@ -17,11 +18,11 @@
         <a href="#"><img src="images/logo.svg" alt="logo"></a>
         <ul class="header_nav">
           <li class="header_nav_li"><a class="header_nav_a" href="#">home</a></li>
-          <li class="header_nav_li"><a class="header_nav_a" href="#">about</a></li>
-          <li class="header_nav_li"><a class="header_nav_a" href="#">services</a></li>
-          <li class="header_nav_li"><a class="header_nav_a" href="#">gallery</a></li>
-          <li class="header_nav_li"><a class="header_nav_a" href="#">blog</a></li>
-          <li class="header_nav_li"><a class="header_nav_a" href="#">contact</a></li>
+          <li class="header_nav_li"><a class="header_nav_a" href="#about">about</a></li>
+          <li class="header_nav_li"><a class="header_nav_a" href="#services">services</a></li>
+          <li class="header_nav_li"><a class="header_nav_a" href="#gallery">gallery</a></li>
+          <li class="header_nav_li"><a class="header_nav_a" href="# blog">blog</a></li>
+          <li class="header_nav_li"><a class="header_nav_a" href="# contact">contact</a></li>
         </ul>
       </div>
       <div class="header_main">
@@ -29,7 +30,7 @@
         <p class="header_main_text text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
           veniam, quis nostrud exercitation ullamco.</p>
         <a class="header_button button" href="#">Get free now</a>
-        <a class="header_scroll" href="#">
+        <a class="header_scroll" href="#about">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="40" viewBox="0 0 24 40">
             <image id="scroll.svg" width="24" height="40"
               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAoCAQAAABOBPLeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhCwEUDyB5eQNYAAACAklEQVQ4y+3VMUiUYRzH8Y+vnjampiCcECKheCQIbZJSVF5jNEiBSk02OOnQJLU0ZEMOFUFimRDU4tJpUQgtQYSEhg7ioiWpdRItnmIN6nWXd56NQb/hD+/z//7e5/8+zwu/vCNSFKhx2gkRpfhqymsvzNj8jeSlGOp1andAutYMuuvDbsNlvSqx4rlpqzioVlQZ5l3zYAsr2Mavuq7AqpuemLe+vRpSqVWPSveUuwH5pXDJLSHvnfNMPGXiTXFvjDom7LjPJrZGiogJm3DeXPLNUcSSO1V5qsGCqKlAoS5hce1JnA4jRnQkn+e0iwvrUhio1oY+kykn05hStzSlD22qA2cUWTacdpQbKXVHw5YVaQk0I2Yxrfkzpe5oUQzNgQimJeRSwjQigTLEc+K2qUOB0K5ps2kDoSBja2s1L3vrT61B8trSVJDRMKDJpoH9G96p/7sdssDZv2EP/Tf8s4Z12X+QdBVgPbCC4n0ZirESmEStwpx4oRpMBcbRoiKnocJZjAfGrCl3MafhgjJrRgOzHqFbZE+8TjeGzAYS+i0o9lBVVrzKkBILbkvkl7Lku6iwRm99yYAf9ViDdT3GdvJhwoYmYa3yffIjmRAhh3W6r8qGXv1kiqwlMTO+oUSNqHJpkZUeild07LqRhEF3MoUiBGqdclKdMiz76JWXplNj9xcI0YsrPw+qKwAAAABJRU5ErkJggg==" />
@@ -39,7 +40,7 @@
     </div>
   </header>
   <!--end header-->
-  <section class="about">
+  <section class="about" id="about">
     <div class="container">
       <div class="about_block">
         <h2 class="about_title section_title">About us</h2>
@@ -48,7 +49,7 @@
       </div>
     </div>
   </section>
-  <section class="services">
+  <section class="services" id="services">
     <div class="container">
       <ul class="services_ul">
         <li class="services_li"><a class="services_a" href=""><span class="services_span">Online Shopping</span><img class="services_img cart" src="images/cart.png" alt=""></a></li>
@@ -60,7 +61,7 @@
     </div>
   </section>
   <!--end section services-->
-  <section class="gallery">
+  <section class="gallery" id="gallery">
     <div class="container">
       <h2 class="gallery_title section_title">Gallery</h2>
       <p class="gallery_text text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -81,7 +82,7 @@
     </div>
   </section>
   <!--end section gallery-->
-  <section class="subscribe">
+  <section class="subscribe" id="subscribe">
     <div class="container">
       <h3 class="subscribe_title">Subscribe to us</h3>
       <p class="subscribe_text text">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -92,7 +93,7 @@
     </div>
   </section>
   <!--end section subscribe-->
-  <section class="blog">
+  <section class="blog" id="blog">
     <div class="container">
       <h2 class="blog_title section_title">Blog</h2>
       <p class="blog_text text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
@@ -135,7 +136,7 @@
     </div>
   </section>
   <!--end section blog-->
-  <section class="contact">
+  <section class="contact" id="contact">
     <div class="container">
       <h2 class="contact_title section_title">Contact</h2>
       <p class="contact_text text">For new projects, ideas, business or anything
